@@ -1,0 +1,17 @@
+.all-fipage{
+    background-image: url(./imgs/page5.jpg);
+}
+
+.fifth-page_main-txt{
+    width: 100%;
+    height: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    color: #D90000;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}

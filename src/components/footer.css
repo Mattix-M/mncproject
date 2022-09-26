@@ -1,0 +1,95 @@
+.all-footer{
+    position: relative;
+    width: 100%;
+    height: 488px;
+    left: 0px;
+    top: 0px;   
+    background: #C4C4C4;
+}
+
+
+.contacts{
+    position: absolute;
+    width: 435px;
+    height: 322px;
+    left: 125px;
+    top: 88px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 44px -12px rgba(0, 0, 0, 0.25);
+}
+
+.contacti{
+    position: absolute;
+    width: 122px;
+    height: 29px;
+    left: 50px;
+    top: 53px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 35%;
+    height: 80%;
+    padding-left: 45px;
+}
+.face{
+    height: 25px;
+    /* position: absolute;
+    left: 11.67%;
+    right: 86.11%;
+    top: 59.14%;
+    bottom: 35.34%; */
+}
+
+.twitt{
+    height: 25px;
+    /* position: absolute;
+    left: 15.28%;
+    right: 83.5%;
+    top: 59.14%;
+    bottom: 35.34%; */
+}
+
+.utube{
+    height: 25px;
+}
+
+.insta{
+    height: 25px;
+}
+
+.c-sign{
+    background-color: white;
+    height: 100px;
+}
+
+@media (max-width: 1024px) {
+    .contacts {
+        position: initial;
+        width: 100%;
+    }
+
+    .contacti {
+        position: initial;
+        color: black;
+        width: 100%;
+    }
+
+    .socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 75%;
+        height: 80%;
+        padding-left: 45px;
+    }
+}
